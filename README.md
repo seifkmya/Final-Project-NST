@@ -101,7 +101,8 @@ python adain/stylize.py --content content.jpg --style style.jpg --decoder checkp
 - **Johnson**: Real-time, but one model per style.
 - **AdaIN**: Real-time + arbitrary style images, good balance of quality and speed.
 
----
+---<img width="500" height="396" alt="output 2" src="https://github.com/user-attachments/assets/43bfe095-159b-43c8-885f-88ddd36fd3a1" />
+
 
 ## References
 - Gatys, L.A., Ecker, A.S. and Bethge, M., 2016. *Image style transfer using convolutional neural networks*. CVPR.
