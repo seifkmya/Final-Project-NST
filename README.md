@@ -10,6 +10,7 @@ This project explores three major Neural Style Transfer (NST) methods:
 The project compares these methods in terms of **quality, speed, and flexibility**. A simple and interactive **Streamlit web app** was developed to allow users to try out NST without coding.
 
 ---
+<img width="500" height="372" alt="Main Outputs" src="https://github.com/user-attachments/assets/a5f7713f-df78-4747-93f8-3682eaaa3082" />
 
 ## Features
 - Implementation of three NST methods (Gatys, Johnson, AdaIN).
