@@ -48,9 +48,12 @@ pip install -r requirements.txt
 ├── johnson/              # Implementation of Johnson feed-forward NST
 ├── adain/                # Implementation of AdaIN NST
 ├── checkpoints/          # Pretrained weights (Johnson, AdaIN)
-├── ui/                   # Streamlit web app
 ├── results/              # Example stylized outputs
 ├── utils/                # Helper functions (losses, data loaders)
+├──
+├──
+├──
+├──
 └── README.md             # This file
 ```
 
