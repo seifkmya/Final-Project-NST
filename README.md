@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-##Usage
+## Usage
 
 The easiest way to try the project is through the Streamlit web app:
 
@@ -72,8 +72,6 @@ Choose one of the three methods: Johnson or AdaIN.
 Adjust parameters (e.g., style strength for AdaIN).
 
 View the stylized output directly and download it if you want.
-
----
 
 ---
 
