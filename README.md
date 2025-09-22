@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-sage
+##Usage
 
 The easiest way to try the project is through the Streamlit web app:
 
