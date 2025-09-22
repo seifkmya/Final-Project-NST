@@ -75,6 +75,8 @@ View the stylized output directly and download it if you want.
 
 ---
 
+---
+
 ## Evaluation
 - **Objective metrics**: SSIM, LPIPS, runtime, memory usage.
 - **Subjective evaluation**: small user survey comparing visual quality and control.
