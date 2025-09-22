@@ -59,34 +59,19 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
+sage
 
-### 1. Run Streamlit App
-```bash
-streamlit run ui/app.py
-```
-Upload a content and style image (or trained module for Johnson), pick a method, and get your stylized output.
+The easiest way to try the project is through the Streamlit web app:
 
-### 2. Run Gatys NST (Optimization)
-```bash
-python gatys/run_gatys.py --content content.jpg --style style.jpg --out output.jpg
-```
+[🔗 Open the NST App](https://final-project-nst-wyky6a4shqkzp7yp5yp9vs.streamlit.app/)
 
-### 3. Run Johnson NST (Feed-forward)
-Train a Johnson model:
-```bash
-python johnson/train.py --dataset /path/to/dataset --epochs 2
-```
-Stylize an image:
-```bash
-python johnson/stylize.py --content content.jpg --checkpoint checkpoints/johnson_xxx.pth --out output.jpg
-```
+Upload a content image and a style image (or a trained module for Johnson).
 
-### 4. Run AdaIN NST (Arbitrary)
-Stylize with AdaIN decoder:
-```bash
-python adain/stylize.py --content content.jpg --style style.jpg --decoder checkpoints/decoder_final.pth --alpha 0.7 --out output.jpg
-```
+Choose one of the three methods: Johnson or AdaIN.
+
+Adjust parameters (e.g., style strength for AdaIN).
+
+View the stylized output directly and download it if you want.
 
 ---
 
