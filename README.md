@@ -49,7 +49,6 @@ pip install -r requirements.txt
 ├── adain/                                           # Implementation of AdaIN NST
 ├── checkpoints/                                     # Pretrained weights (Johnson, AdaIN)
 ├── results/                                         # Example stylized outputs
-├── utils/                                           # Helper functions (losses, data loaders)
 ├──decoder_final.pth                                 # For the Streamlit web app 
 ├──requirements.txt                                  # For the Streamlit web app 
 ├──streamlit_johnson_style_transfer_app 2.py         # Streamlit web app
